@@ -50,7 +50,7 @@ public class Operator {
         return operations(arg1,arg2,valTemp);
     }
     public CalcNumber multiply(final CalcNumber arg1, final CalcNumber arg2) {
-        int valTemp =arg1.value+arg2.value;
+        int valTemp =arg1.value*arg2.value;
         return operations(arg1,arg2,valTemp);
     }
 
